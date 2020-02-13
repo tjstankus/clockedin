@@ -1,0 +1,24 @@
+#+TITLE: Clockedin
+#+FILETAGS: :clockedin:sticktoitive:ruby:
+* NEXT Parse single heading with multiple clock entries
+:LOGBOOK:
+CLOCK: [2020-02-12 Wed 11:20]
+CLOCK: [2020-02-12 Wed 10:57]--[2020-02-12 Wed 10:59] =>  0:02
+:END:
+* TODO Ignore non-clock lines
+* DONE Write README
+:LOGBOOK:
+CLOCK: [2020-02-12 Wed 10:48]--[2020-02-12 Wed 10:56] =>  0:08
+:END:
+Org mode terms
+
+What it does: reads org mode files for clock entries. Only concerned with
+headlines that have clock entries. Also gets tags for those headlines. Untagged
+is fine.
+* DONE Parse timestamps from single line
+:LOGBOOK:
+CLOCK: [2020-02-12 Wed 09:01]--[2020-02-12 Wed 10:16] =>  1:15
+CLOCK: [2020-02-12 Wed 08:05]--[2020-02-12 Wed 08:38] =>  0:33
+CLOCK: [2020-02-12 Wed 07:35]--[2020-02-12 Wed 08:03] =>  0:28
+:END:
+Fucking regular expressions. I suck at them, but also they suck.

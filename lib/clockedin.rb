@@ -2,6 +2,9 @@
 
 require "clockedin/version"
 require "clockedin/clock_entry"
+require "clockedin/document"
+require "clockedin/headline"
+require "clockedin/tags"
 require "clockedin/time_span"
 
 module Clockedin
